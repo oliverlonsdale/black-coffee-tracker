@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    margin: auto;
+    text-align: center;
+}
+input {
+    width: 3vw;
+}
+
+button {
+    height: 5vh;
+    font-size: 1rem;
+    background-color: rgb(243, 211, 169);
+    border-radius: 16px;
+    border: 1px solid;
+    color: rgb(121, 82, 32);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(236, 201, 158); 
+    border-color: rgb(114, 77, 29); 
+    color: rgb(102, 69, 28); 
+    cursor: pointer;
+}
+
+.main {
+    width: 35vw;
+    height: fit-content;
+    margin-top: 10%;
+    border: 1px solid rgb(102, 69, 28);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#progress-bar {
+    height: 5vh;
+}
